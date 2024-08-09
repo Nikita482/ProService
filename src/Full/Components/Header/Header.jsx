@@ -103,7 +103,7 @@ export default function Header(){
 
             <div className={windowAboutUs ? styles.wrapperOpen : styles.wrapperClosed}>
                 <WindowAboutUs/>
-                <button className={styles.btnWindow} onClick={() => setWindowAboutUs(!windowAboutUs)}>Закрыть</button>
+                <button className={styles.btnWindow1} onClick={() => setWindowAboutUs(!windowAboutUs)}>Закрыть</button>
             </div>
 
             <div className={windowAdvice ? styles.wrapperOpen : styles.wrapperClosed}>

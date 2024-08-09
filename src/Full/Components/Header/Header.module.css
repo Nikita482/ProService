@@ -118,7 +118,7 @@
 .wrapperClosed{
     right: 30px;
 }
-.btnWindow{
+.btnWindow, .btnWindow1{
     width: 95%;
     height: 60px;
     background-color: rgb(128, 128, 128, 0.1);
@@ -138,6 +138,10 @@
     border: 2px solid white;
     background-color: rgb(128, 128, 128, 0.3);
 }
+.btnWindow1{
+    bottom: -20px;
+}
+
 
 
 
