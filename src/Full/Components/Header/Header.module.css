@@ -5,6 +5,7 @@
     position: fixed;
     top: 0;
     display: flex;
+    z-index: 1;
 }
 
 
@@ -51,6 +52,7 @@
     left: 50%;
     transform: translate(-50%);
     display: none;
+    z-index: 1;
 }
 .btnMeta, .mainBtnMeta, .btnMetaTop, .btnMeta1, .btnMeta2, .btnMeta3{
     width: 100%;
@@ -108,6 +110,7 @@
     transform: translateY(-50%);
     transition: right 0.5s ease-in-out; /* Плавный переход */
     border-radius: 30px;
+    z-index: 1;
 }
 .wrapperOpen{
     right: -500px;
