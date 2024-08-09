@@ -1,0 +1,42 @@
+/* .foto{
+    width: 300px;
+    position: absolute;
+}
+
+
+.name{
+    color: white;
+}    */
+
+.wrapper{
+    min-width: 300px;
+    min-height: 300px;
+    position: relative;
+    border-radius: 30px;
+    margin: 0 15px;
+}
+
+
+.Link{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    border-radius: 30px;
+}
+
+
+.name{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: white;
+    pointer-events: none;
+}
+
+.foto{
+    width: 300px;
+    position: absolute;
+    border-radius: 30px;
+    pointer-events: none;
+}

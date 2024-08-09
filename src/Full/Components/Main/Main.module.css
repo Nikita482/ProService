@@ -1,6 +1,37 @@
 .wrapper{
     width: 95%;
-    height: 500px;
+    height: auto;
     margin: 100px auto;
     background-color: #E0F2F1;
+    border-radius: 30px;
+}
+
+
+.wrapperCard{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: auto; 
+}
+
+.textName{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.textFooter{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+
+
+
+@media (max-width: 1400px) {
+    .wrapper{
+        width: 100%;
+    }
 }
