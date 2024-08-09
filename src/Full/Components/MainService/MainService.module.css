@@ -177,7 +177,13 @@
 }
 
 
-@media (max-width: 350px) {
+@media (max-width: 350px){
+    .Link2{
+        background-position: center -40px
+    }
+    .Link3{
+        background-size: 350px 230px;
+    }
     .Link4{
         background-position: center -60px
     }
@@ -187,14 +193,24 @@
 }
 
 
-@media (max-width: 310px) {
+/* @media (max-width: 330px) {
+    .Link2{
+        background-position: center -200px
+    }
+    .Link6{
+        background-position: center -60px
+    }
+} */
+
+
+/* @media (max-width: 310px) {
     .Link4{
         background-position: center -30px
     }
     .Link6{
         background-position: center -30px
     }
-}
+} */
 
 
 
