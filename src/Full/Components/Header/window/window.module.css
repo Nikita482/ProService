@@ -113,9 +113,7 @@
 }   
 
 @media (max-height: 530px) {
-    .massage{
-        height: 50px;
-    }
+
 
     .pole{
         margin-top: 10px;
