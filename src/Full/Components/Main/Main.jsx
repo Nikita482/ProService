@@ -11,9 +11,9 @@ export default function Main(){
 
                 <div className={styles.wrapperCard}>
                     <Card 
-                        to = "/Page1"
-                        name = "Прогромирование"
-                        foto = "https://i.pinimg.com/564x/d0/67/40/d06740abac6ffc8e0e5f24333ce32b8e.jpg"
+                        to = "/Page3"
+                        name = "Фотограф"
+                        foto = "https://i.pinimg.com/564x/91/77/2e/91772e464c9c44bba97457cfa324715a.jpg"
                     />
 
                     <Card 
@@ -23,9 +23,9 @@ export default function Main(){
                     />
 
                     <Card 
-                        to = "/Page3"
-                        name = "Фотограф"
-                        foto = "https://i.pinimg.com/564x/91/77/2e/91772e464c9c44bba97457cfa324715a.jpg"
+                        to = "/Page1"
+                        name = "Прогромирование"
+                        foto = "https://i.pinimg.com/564x/d0/67/40/d06740abac6ffc8e0e5f24333ce32b8e.jpg"
                     />
 
                     <Card 

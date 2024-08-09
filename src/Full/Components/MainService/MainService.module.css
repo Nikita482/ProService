@@ -1,0 +1,163 @@
+.wrapper{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    background-color: #E0F2F1;
+}
+
+
+.name{
+    text-align: center;
+}
+
+
+.boxLinks{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.Link1, .Link2, .Link3, .Link4, .Link5, .Link6{
+    width: 400px;
+    height: 300px;
+    margin: 10px 15px 10px 15px;
+    position: relative;
+    border-radius: 30px;
+}
+.Link1{
+    background-image: url('https://i.pinimg.com/474x/a1/e2/19/a1e21974635138fe8a6e4deaf9ce0d04.jpg');
+    background-size: cover;
+}
+.Link2{
+    background-image: url('https://i.pinimg.com/474x/02/d5/14/02d514ec74727151cf8b95b3f9d76d85.jpg');
+    background-size: cover;
+}
+.Link3{
+    background-image: url('https://i.pinimg.com/474x/8a/ca/bb/8acabb6ff6c0e32450e35b166f81851b.jpg');
+    background-size: cover;
+}
+.Link4{
+    background-image: url('https://i.pinimg.com/564x/96/e2/f7/96e2f7332733fd321c96c6f5bb9140b2.jpg');
+    background-size: cover;
+}
+.Link5{
+    background-image: url('https://i.pinimg.com/474x/49/78/5a/49785a5b196d03bc04770f79142be848.jpg');
+    background-size: cover;
+    
+}
+.Link6{
+    background-image: url('https://i.pinimg.com/474x/52/54/90/5254909cbf2c2137f4adaeaf3992b466.jpg');
+    background-size: cover;
+}
+
+
+.text{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+@media (max-width: 1360px) {
+    .Link1, .Link2, .Link3, .Link4, .Link5, .Link6{
+        width: 550px;
+    }
+}
+
+
+@media (max-width: 1230px) {
+    .Link1, .Link2, .Link3, .Link4, .Link5, .Link6{
+        width: 500px;
+    }
+}
+
+
+@media (max-width: 1120px) {
+    .Link1, .Link2, .Link3, .Link4, .Link5, .Link6{
+        width: 450px;
+    }
+}
+
+
+@media (max-width: 1020px) {
+    .Link1, .Link2, .Link3, .Link4, .Link5, .Link6{
+        width: 400px;
+        height: 250px;
+    }
+}
+
+
+@media (max-width: 910px) {
+    .Link1, .Link2, .Link3, .Link4, .Link5, .Link6{
+        width: 350px;
+    }
+}
+
+
+@media (max-width: 810px) {
+    .Link1, .Link2, .Link3, .Link4, .Link5, .Link6{
+        width: 90%;
+        height: 250px;
+    }
+    .Link1, .Link2, .Link4, .Link5{
+        background-position: center -100px
+    }
+    .Link3{
+        background-size: 650px 350px;
+    }
+    .Link6{
+        background-position: center -130px
+    }
+}
+
+
+@media (max-width: 650px) {
+    .Link1, .Link2, .Link4, .Link5{
+        background-position: center -30px
+    }
+    .Link3{
+        background-size: 650px 350px;
+    }
+    .Link6{
+        background-position: center -100px
+    }
+}
+
+
+@media (max-width: 550px) {
+    .Link1, .Link2, .Link3, .Link4, .Link5, .Link6{
+        height: 170px;
+    }
+    .Link1, .Link2, .Link5{
+        background-position: center -70px
+    }
+    .Link4{
+        background-position: center -90px
+    }
+    .Link3{
+        background-size: 650px 350px;
+    }
+    .Link6{
+        background-position: center -90px
+    }
+}
+
+
+@media (max-width: 450px) {
+    .Link1, .Link2, .Link3, .Link4, .Link5, .Link6{
+        height: 150px;
+
+    }
+}
+
+
+/* background-position: center -50px;
+background-size: 380px 200px; */
