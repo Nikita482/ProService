@@ -149,11 +149,18 @@
 }
 
 
-@media (max-height: 460px) {
+@media (max-height: 500px) {
     .btnWindow{
       bottom: 5px;
     }
-  }
+}
+
+
+@media (max-height: 470px) {
+    .btnWindow{
+      bottom: -10px;
+    }
+}
 
 
 @media (max-width: 1300px) {
