@@ -1,6 +1,7 @@
 .wrapper{
     width: 500px;
     height: 100%;
+    min-height: 550px;
     background-color: #E0F2F1;
     position: fixed;
     border: 2px solid black;
@@ -66,6 +67,7 @@
     height: 60px;
     margin: 0 auto;
     border-radius: 20px;
+    color: black;
     border: none;
     font-size: 25px;
     background-color: rgb(128, 128, 128, 0.1);
