@@ -89,8 +89,8 @@
     align-items: center;
 }
 .btnMenu{
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     font-size: 40px;
     border-radius: 13px;
     background-color: white;
@@ -142,12 +142,18 @@
 
 
 
-
 @media (max-height: 820px) {
   .btnWindow{
     bottom: 30px;
   }
 }
+
+
+@media (max-height: 460px) {
+    .btnWindow{
+      bottom: 5px;
+    }
+  }
 
 
 @media (max-width: 1300px) {
