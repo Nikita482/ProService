@@ -76,6 +76,7 @@
     justify-content: center;
     align-items: center;
     border: 2px solid transparent;
+    color: black;
 }
 .final:hover{
     border: 2px solid white;

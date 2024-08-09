@@ -23,7 +23,7 @@
 
 
 .font2{
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -42,6 +42,7 @@
 
 .font1{
     margin-top: 3px;
+    font-size: 16px;
 }
 
 
@@ -66,7 +67,6 @@
     margin: 0 auto;
     border-radius: 20px;
     border: none;
-    margin-top: 20px;
     font-size: 25px;
     background-color: rgb(128, 128, 128, 0.1);
 }
@@ -131,6 +131,7 @@
     }
     .wrapperMin{
         display: block;
+        width: 85%;
     }
     .ul{
         width: 100%;
