@@ -131,6 +131,10 @@
     .messengersMedia, .vkMedia, .instMedia, .tgMedia{
         display: flex;
     }
+    .vkMedia, .instMedia, .tgMedia{
+        width: 60px;
+        height: 60px;
+    }
     .messengersMedia{
         width: 100%;
         margin-bottom: 30px;
@@ -144,7 +148,10 @@
     .wrapper{
         padding-bottom: 1px;
     }
-    .center{
+    .center, .center1{
         text-align: center;
+    }
+    .center1{
+        margin-top: 20px;
     }
 }
