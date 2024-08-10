@@ -10,7 +10,7 @@ export default function Input(props){
                 <input type="hidden" name="Название формы:" value={props.nameForm} readOnly/>{/* Название формы через props */}
                 
                 <div className={styles.pole}>
-                    <textarea className={styles.massage} placeholder="чем вам помочь?" name="Сообщение:" required></textarea>
+                    <textarea className={styles.massage} placeholder="Оставте отзыв" name="Сообщение:" required></textarea>
                     <input className={styles.final} type="submit" value="Отправить">{/* кнопка отправить */}</input>
                 </div>  
             </form>
