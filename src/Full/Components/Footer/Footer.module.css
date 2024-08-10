@@ -1,0 +1,147 @@
+.wrapper{
+    width: 95%;
+    height: auto;
+    background-color: #E0F2F1;
+    border-radius: 30px;
+    margin: 50px auto;
+    padding-bottom: 50px;
+}
+
+
+.blockInfo{
+    width: 95%;
+    height: auto;
+    margin: 30px auto;
+    display: flex;
+}
+
+
+.addresses{
+    width: 30%;
+}
+
+
+.text{
+    width: 70%;
+}
+
+
+.messengers, .messengersMedia{
+    width: 30%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.vk, .inst, .tg, .vkMedia, .instMedia, .tgMedia{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.vk, .vkMedia{
+    background: linear-gradient(45deg, #4F75A0, #003f6c);
+}
+.inst, .instMedia{
+    background: linear-gradient(45deg, #C13584, #F56040, #F77737, #FDCB82);
+} 
+.tg, .tgMedia{
+    background: linear-gradient(45deg, #0088CC, #00B2FF);
+}
+
+
+.fontSize{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.fontSize1{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+
+.media{
+    display: flex;
+    width: 70%;
+}
+.messengersMedia, .vkMedia, .instMedia, .tgMedia{
+    display: none;
+}
+
+
+@media (max-width: 900px) {
+    .media{
+        display: block;
+    }
+    .addresses{
+        width: 70%;
+    }
+    .text{
+        width: 100%;
+    }
+    .addresses{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 810px) {
+    .wrapper{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .messengers{
+        width: 10%;
+        height: 212px;
+        display: block;
+    }
+    .media{
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .media{
+        width: 80%;
+    }
+    .messengers{
+        width: 20%;
+    }
+    .vk, .inst, .tg{
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .messengers, .vk, .inst, .tg{
+        display: none;
+    }
+    .messengersMedia, .vkMedia, .instMedia, .tgMedia{
+        display: flex;
+    }
+    .messengersMedia{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .blockInfo{
+        display: block;
+    }
+    .media{
+        width: 100%;
+    }
+    .wrapper{
+        padding-bottom: 1px;
+    }
+}

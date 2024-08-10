@@ -1,0 +1,35 @@
+.pole{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+
+.massage{
+    width: 80%;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 7px 0 0 15px;
+    outline: none; 
+    resize: none;
+}
+
+
+.final{
+    width: 15%;
+    min-width: 130px;
+    border-radius: 50px;
+    font-size: 20px;
+    background: linear-gradient(200deg, #FF3D00, #F06292);
+    color: white;
+}
+
+
+@media (max-width: 500px) {
+    .pole{
+        width: 100%;
+    }
+}
