@@ -16,13 +16,13 @@ export default function Footer(){
                     </div>  
                     <div className={styles.media}>
                         <div className={styles.addresses}>
-                            <h2>Контактноя информация</h2>
+                            <h2 className={styles.center}>Контактноя информация:</h2>
                             <p className={styles.fontSize}>contact@proservice.ru</p>
                             <p className={styles.fontSize1}>+7 (495) 123-45-67</p>
                         </div>
 
                         <div className={styles.text}>
-                            <h1>О сайте:</h1>
+                            <h1 className={styles.center}>О сайте:</h1>
                             <p className={styles.fontSize}>ProService предоставляет широкий спектр услуг для бизнеса и частных лиц, включая консалтинг, техническую поддержку и индивидуальные решения. Мы стремимся к качеству и инновациям, чтобы удовлетворить потребности наших клиентов.</p>
                         </div>
                     </div>

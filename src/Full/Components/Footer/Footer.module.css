@@ -3,7 +3,7 @@
     height: auto;
     background-color: #E0F2F1;
     border-radius: 30px;
-    margin: 50px auto;
+    margin: 50px auto 20px auto;
     padding-bottom: 50px;
 }
 
@@ -143,5 +143,8 @@
     }
     .wrapper{
         padding-bottom: 1px;
+    }
+    .center{
+        text-align: center;
     }
 }
