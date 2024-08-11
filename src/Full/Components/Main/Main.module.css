@@ -16,10 +16,6 @@
     overflow-x: auto; 
 }
 
-.wrapperCard > * {
-    scroll-snap-align: start; /* Устанавливает выравнивание элементов по началу */
-}
-
 .textName{
     text-align: center;
     padding: 15px 0;

@@ -1,0 +1,94 @@
+.wrapper {
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin: 100px auto 50px auto;
+    background-color: #E0F2F1;
+    border-radius: 30px;
+    overflow: hidden; /* Убедитесь, что стрелки не выходят за пределы контейнера */
+}
+
+.wrapperCard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; /* Обеспечивает более предсказуемую прокрутку */
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.cardImage {
+    width: 100%;
+    height: auto;
+}
+
+.cardName {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.arrow-left {
+    left: 10px;
+}
+
+.arrow-right {
+    right: 10px;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.textName {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.textFooter {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+@media (max-width: 1400px) {
+    .wrapper {
+        width: 100%;
+    }
+}
