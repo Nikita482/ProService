@@ -29,11 +29,6 @@ export default function Page1(){
                 <EmployeeCard fullName = "Елена Сергеевна Петрова"
                     foto = "https://i.pinimg.com/474x/a1/92/82/a19282a527e48c193d328b77f8816613.jpg"
                 />
-
-                <EmployeeCard fullName = "Елена Сергеевна Петрова"
-                    foto = "https://i.pinimg.com/474x/a1/92/82/a19282a527e48c193d328b77f8816613.jpg"
-                />
-
             </div>      
 
       
