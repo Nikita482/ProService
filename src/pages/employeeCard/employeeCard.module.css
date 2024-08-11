@@ -1,0 +1,219 @@
+.wrapper{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(128, 128, 128, 0.1);
+    border-radius: 30px;
+    position: relative;
+}
+
+.wrapper, .wrapperSide2, .wrapperSide3{
+    margin: 35px;
+}
+
+
+.cardTop{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #2C3E50;
+    position: relative;
+}
+.name1{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+.cardBottom{
+    width: 100%;
+    height: 50%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #a4a4a4;
+}
+.cardBtmName{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 80px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.boxBtn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 50px;
+}
+.btnInfo, .btnOrder, .btnBackSide2, .btnOrderSide2{
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.btnInfo, .btnBackSide2{
+    width: 40%;
+}
+.btnOrder, .btnOrderSide2{
+    width: 40%;
+
+}
+
+
+.foto{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.cardCenter{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #a4a4a4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.hole{
+    width: 100px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: #E0F2F1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+
+
+
+.wrapperSide2{
+    width: 300px;
+    height: 500px;
+    background-color: #2C3E50;
+    border-radius: 30px;
+    position: relative;
+}
+.wrapperText{
+    width: 90%;
+    height: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    bottom: 0;
+}
+.info{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.boxBtnSide2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 50px;
+}
+
+
+
+.wrapperSide3{
+    width: 300px;
+    height: 500px;
+    background-color: #2C3E50;
+    border-radius: 30px;
+    position: relative;
+}
+.wrapperform{
+    width: 90%;
+    height: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    bottom: 0;
+}
+.form{
+    color: white;
+}
+.pole{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.label{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.name, .email, .tel{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.massage{
+    width: 100%;
+    height: 70px;
+    max-height: 250px;
+    min-height: 40px;
+    font-size: 20px;
+    padding: 5px;
+    resize: none;
+}
+.final{
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #BDC3C7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.back{
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #BDC3C7;
+    color: black;
+
+}
+
+
+
+@media (max-width: 780px) {
+    .wrapper, .wrapperSide2, .wrapperSide3{
+        margin: 10px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .wrapper{
+    }
+}
