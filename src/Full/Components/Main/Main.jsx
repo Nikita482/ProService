@@ -34,12 +34,10 @@ export default function Main(){
                         foto = "https://i.pinimg.com/564x/5a/7b/9b/5a7b9bcf2117b3fe9dfa115b271cd235.jpg"
                     />
 
-
-                </div>
-                
-                <div className={styles.arrows}>
-                    <h1 className={styles.arrowsleft}>&lt;</h1>
-                    <h1 className={styles.arrowsRight}>&gt;</h1>
+                    {/* <div className={styles.arrows}>
+                        <h1 className={styles.arrowsleft}>&lt;</h1>
+                        <h1 className={styles.arrowsRight}>&gt;</h1>
+                    </div> */}
                 </div>
 
                 <p className={styles.textFooter}>ProService соединяет покупателей и исполнителей услуг, делая этот процесс простым и удобным.</p>
