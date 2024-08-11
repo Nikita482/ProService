@@ -3,6 +3,7 @@
     height: 70px;
     background-color: #E0F2F1;
     position: fixed;
+    border-bottom: 3px solid black;
     top: 0;
     display: flex;
     z-index: 1;
@@ -53,9 +54,8 @@
     width: 95%;
     height: auto;
     background-color: #E0F2F1;
-    /* background-color: #0be1d7; */
     border-radius: 30px;
-    /* border: 2px solid white; */
+    border: 3px solid black;
     position: fixed;
     top: 80px;
     left: 50%;
@@ -100,7 +100,7 @@
 .btnMenu{
     width: 50px;
     height: 50px;
-    font-size: 40px;
+    font-size: 35px;
     border-radius: 13px;
     background-color: white;
     display: flex;
@@ -110,14 +110,15 @@
 }
 .menuHome{
     display: none;
-    width: 54px;
-    height: 54px;
+    width: 50px;
+    height: 50px;
     border-radius: 13px;
     margin-right: 10px;
+    border: 2px solid rgb(223, 223, 223);
 }
 .menuHome img{
-    width: 54px;
-    height: 54px;
+    width: 50px;
+    height: 50px;
     border-radius: 13px;
 
 }

@@ -1,19 +1,9 @@
-/* .foto{
-    width: 300px;
-    position: absolute;
-}
-
-
-.name{
-    color: white;
-}    */
-
 .wrapper{
     min-width: 300px;
     min-height: 300px;
     position: relative;
     border-radius: 30px;
-    margin: 0 15px;
+    margin: 20px 10px 20px 10px;
 }
 
 
@@ -39,4 +29,17 @@
     position: absolute;
     border-radius: 30px;
     pointer-events: none;
+}
+
+
+
+@media (max-width: 768px) {
+    .wrapper{
+        min-width: 200px;
+        min-height: 200px;
+        background-color: red;
+    }
+    .foto{
+        width: 200px;
+    }
 }
