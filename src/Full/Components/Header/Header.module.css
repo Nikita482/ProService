@@ -6,7 +6,7 @@
     top: 0;
     display: flex;
     z-index: 1;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
 }
 
 
@@ -46,7 +46,7 @@
     height: auto;
     background-color: #E0F2F1;
     border-radius: 30px;
-    border: 3px solid black;
+    border: 2px solid black;
     position: fixed;
     top: 80px;
     left: 50%;
