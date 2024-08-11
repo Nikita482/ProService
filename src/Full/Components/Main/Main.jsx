@@ -33,18 +33,6 @@ export default function Main(){
                         name = "Курьер"
                         foto = "https://i.pinimg.com/564x/5a/7b/9b/5a7b9bcf2117b3fe9dfa115b271cd235.jpg"
                     />
-
-<Card 
-                        to = "/Page3"
-                        name = "Фотограф"
-                        foto = "https://i.pinimg.com/564x/91/77/2e/91772e464c9c44bba97457cfa324715a.jpg"
-                    />
-
-                    <Card 
-                        to = "/Page4"
-                        name = "Курьер"
-                        foto = "https://i.pinimg.com/564x/5a/7b/9b/5a7b9bcf2117b3fe9dfa115b271cd235.jpg"
-                    />
                 </div>
 
                 <p className={styles.textFooter}>ProService соединяет покупателей и исполнителей услуг, делая этот процесс простым и удобным.</p>
