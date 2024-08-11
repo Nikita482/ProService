@@ -32,7 +32,7 @@
     width: 95%;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 250px;
+    bottom: 190px;
     position: absolute;
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,6 @@
 }
 .arrowsleft, .arrowsRight{
     bottom: 10px;
-    z-index: 10;
     width: 40px;
     height: 40px;
     border-radius: 50%;
